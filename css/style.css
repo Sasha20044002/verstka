@@ -914,4 +914,55 @@ body {
     line-height: 20px;
   }
 }
+@media (max-width: 1052px) {
+  .header__info .header__header {
+    margin-bottom: 70px;
+  }
+  .header__info .header__main-left .text__1 {
+    font-size: 32px;
+  }
+  .header__info .header__main-left .text__2 {
+    font-size: 16px;
+  }
+  .main .comments .coments {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .comments .part-left {
+    width: 450px;
+    margin-right: 55px;
+  }
+  .main .comments .part-left .text {
+    padding-top: 5px;
+  }
+  .main .comments .part-left .button {
+    padding-top: 50px;
+  }
+  .main .comments .part-right {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .main .comments .part-right .comment1 {
+    margin-bottom: 40px;
+  }
+  .main .comments .part-right .comment1-image,
+  .main .comments .part-right .comment2-image {
+    padding-right: 15px;
+  }
+  .main .comments .part-right .comment1-text,
+  .main .comments .part-right .comment2-text {
+    padding: 16px 28px 15px 15px;
+  }
+  .main .comments .part-right .comment1-text-text,
+  .main .comments .part-right .comment2-text-text {
+    line-height: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

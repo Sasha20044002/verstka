@@ -273,6 +273,7 @@ body {
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
           box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
+  border: none;
   background-color: #1de9b6;
   padding: 22px 23px 22px 28px;
   text-decoration: none;
